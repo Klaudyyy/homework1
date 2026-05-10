@@ -13,6 +13,7 @@ public class Main {
         paper = paper + 2;
         System.out.println(dog + "," + cat + "," + paper);
 
+
         dog = dog - 3.5;
         cat = cat - 1.6;
         paper = paper - 7639;
@@ -39,7 +40,7 @@ public class Main {
         var TotalMass = boxer1 + boxer2;
         System.out.println("общая масса " + TotalMass + "кг");
         var Difference = boxer2 - boxer1;
-        System.out.println("разница между бойцами " + Difference + "кг");
+        System.out.println("разница между бойцами составляет " + Difference + "кг");
         var Remainder = boxer2 % boxer1;
         System.out.println("остаток " + Remainder + "%");
 
