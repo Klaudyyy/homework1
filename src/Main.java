@@ -3,7 +3,7 @@
 public class Main {
     public static void
     main(String[] args) {
-        var dog = 0.8;
+        var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
         System.out.println(dog + "," + cat + "," + paper);
@@ -12,6 +12,7 @@ public class Main {
         cat = cat + 2;
         paper = paper + 2;
         System.out.println(dog + "," + cat + "," + paper);
+
 
         dog = dog - 3.5;
         cat = cat - 1.6;
@@ -25,7 +26,7 @@ public class Main {
         friend = friend / 7;
         System.out.println(friend);
 
-        var frog = 5.5;
+        var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
         System.out.println(frog);
@@ -39,17 +40,17 @@ public class Main {
         var TotalMass = boxer1 + boxer2;
         System.out.println("общая масса " + TotalMass + "кг");
         var Difference = boxer2 - boxer1;
-        System.out.println("разница между бойцами " + Difference + "кг");
+        System.out.println("разница между бойцами составляет " + Difference + "кг");
         var Remainder = boxer2 % boxer1;
         System.out.println("остаток " + Remainder + "%");
 
-        var TotalHours = 640;
-        var TimeForOne = 8;
-        var NumberOfEmployees = TotalHours / TimeForOne;
-        System.out.println("Всего работников в компании " + NumberOfEmployees + "человек");
+        var totalHours = 640;
+        var timeForOne = 8;
+        var numberOfEmployees = totalHours / timeForOne;
+        System.out.println("Всего работников в компании " + numberOfEmployees + "человек");
 
-        NumberOfEmployees = NumberOfEmployees + 94;
-        TotalHours = NumberOfEmployees * TimeForOne;
-        System.out.println("Если в компании работает " + NumberOfEmployees + "человек, то всего " + TotalHours + "чвсов работы");
+        numberOfEmployees = numberOfEmployees + 94;
+        totalHours = numberOfEmployees * timeForOne;
+        System.out.println("Если в компании работает " + numberOfEmployees + "человек, то всего " + totalHours + "чвсов работы");
     }
 }
