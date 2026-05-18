@@ -44,6 +44,7 @@ public class Main {
         var Remainder = boxer2 % boxer1;
         System.out.println("остаток " + Remainder + "%");
 
+
         var totalHours = 640;
         var timeForOne = 8;
         var numberOfEmployees = totalHours / timeForOne;
